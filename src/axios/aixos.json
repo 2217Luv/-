@@ -1,0 +1,59 @@
+/*axios 
+
+1、安装  npm install axios
+
+2、使用
+const instance = axios.create({
+  baseURL: 'http://localhost:8080/',
+  timeout: 5000,
+});
+
+ this.$axios({
+			   url:url,
+			   method:"get",
+			   data:{
+				   name:"zhangsan",
+				   password:"123456"
+			   }
+		   }).then(function(res){
+			   console.log(res.data)
+			   console.log(this)
+			   that.stus=res.data
+			  
+		   })
+3、data 和 params
+
+如果method是post，使用data
+如果method是get ，使用params
+
+
+
+
+服务器地址：http://localhost:8081/
+登录：
+
+接口参数：
+url：/user/login
+method:get
+请求数据：
+  username：string
+  password:string
+
+返回数据：
+   {}
+
+
+注册：
+
+接口参数：
+url: /user/register
+method:post
+请求数据：
+  username：string
+  password:string
+
+返回数据：
+   {}
+
+
+*/

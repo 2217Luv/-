@@ -1,0 +1,28 @@
+[{
+		"name": "学生个人信息维护",
+		"pic_path": "/pictures/1.png"
+	},
+	{
+		"name": "查询个人信息",
+		"pic_path": "/pictures/2.png"
+	},
+	{
+		"name": "学籍预警查询",
+		"pic_path": "/pictures/3.png"
+	},
+	{
+		"name": "毕业审核结果核查",
+		"pic_path": "/pictures/4.png"
+	},
+	{
+		"name": "班级课表查询打印",
+		"pic_path": "/pictures/5.png"
+	},
+	{
+		"name": "考试信息查询",
+		"pic_path": "/pictures/6.png"
+	}, {
+		"name": "结业换证考试查询",
+		"pic_path": "/pictures/7.png"
+	}
+]
